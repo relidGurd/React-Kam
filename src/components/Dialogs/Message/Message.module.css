@@ -1,7 +1,17 @@
-.messages {
-    padding: 10px;
+.message_outer {
+    display: flex;
 }
 
+.message_inner {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.message_bubble {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #e6e7ec;
+    color: black;
+}
 .message {
-
+    margin-bottom: 10px;
 }

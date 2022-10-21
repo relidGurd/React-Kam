@@ -1,11 +1,10 @@
 import Styles from './News.module.css'
 
-const News = () => {
+
+
+export default function News () {
     return (
         <div>
-            News
         </div>
     )
 }
-
-export default News
