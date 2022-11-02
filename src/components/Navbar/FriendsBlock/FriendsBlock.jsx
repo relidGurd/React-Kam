@@ -4,7 +4,7 @@ import FriendItem from "./FriendItem/FriendItem";
 const FriendsBlock = (props) => {
     const Friends = props.state.map(f => <FriendItem image={f.image} name={f.name}/>)
     return (
-        <div className={Styles.friendsBlock}>
+        <div>
             <h3>Friends</h3>
             <div className={Styles.friends}>
                 {Friends}
