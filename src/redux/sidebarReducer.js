@@ -4,7 +4,8 @@ const initialState = {
         {src: '/dialogs', name: 'Messages'},
         {src: '/news', name: 'News'},
         {src: '/music', name: 'Music'},
-        {src: '/settings', name: 'Settings'},],
+        {src: '/settings', name: 'Settings'},
+        {src: '/users', name: 'Users'},],
     myFriends: [
         {id: 1, image: 'https://mobile-comp.com/images/user.png', name: 'Олег'},
         {id: 2, image: 'https://mobile-comp.com/images/user.png', name: 'Виталий'},

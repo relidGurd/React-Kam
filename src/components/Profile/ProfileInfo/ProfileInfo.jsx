@@ -1,5 +1,4 @@
 import Styles from './ProfileInfo.module.css'
-import Post from "../MyPosts/Posts/Post";
 const ProfileInfo = () => {
     return (
         <div className={Styles.content}>
